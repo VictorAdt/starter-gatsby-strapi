@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "descriptions",
+  "info": {
+    "name": "description"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "sentence": {
+      "type": "string"
+    },
+    "alternative": {
+      "type": "string"
+    }
+  }
+}
